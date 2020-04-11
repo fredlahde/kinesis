@@ -1,0 +1,22 @@
+# do not load this onto your keyboard, use qwerty.txt for that
+# caps to esc - for vim, boys
+[caps]>[escape]
+
+# I use win as the i3 meta key, so lets switch alt and win for comfort
+[lalt]>[rwin]
+[rwin]>[lalt]
+# maybe having shift on delete is cool?
+[delete]>[lshift]
+
+# thumb keys:
+# home and end are ()
+{home}>{-lshift}{9}{+lshift}
+{end}>{-lshift}{0}{+lshift}
+# page up and down are {}
+{pup}>{-rshift}{obrack}{+rshift}
+{pdown}>{-lshift}{cbrack}{+lshift}
+# shift and page up and down are []
+{lshift}{pup}>{obrack}
+{lshift}{pdown}>{cbrack}
+{rshift}{pup}>{obrack}
+{rshift}{pdown}>{cbrack}
