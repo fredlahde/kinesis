@@ -1,7 +1,4 @@
 [caps]>[escape]
-[lalt]>[rwin]
-[delete]>[lshift]
-[rwin]>[lalt]
 {home}>{-lshift}{9}{+lshift}
 {end}>{-lshift}{0}{+lshift}
 {pup}>{-rshift}{obrack}{+rshift}
@@ -10,3 +7,5 @@
 {lshift}{pdown}>{cbrack}
 {rshift}{pup}>{obrack}
 {rshift}{pdown}>{cbrack}
+{obrack}>{pup}
+{cbrack}>{pdown}
