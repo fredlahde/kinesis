@@ -2,12 +2,6 @@
 # caps to esc - for vim, boys
 [caps]>[escape]
 
-# I use win as the i3 meta key, so lets switch alt and win for comfort
-[lalt]>[rwin]
-[rwin]>[lalt]
-# maybe having shift on delete is cool?
-[delete]>[lshift]
-
 # thumb keys:
 # home and end are ()
 {home}>{-lshift}{9}{+lshift}
@@ -20,3 +14,8 @@
 {lshift}{pdown}>{cbrack}
 {rshift}{pup}>{obrack}
 {rshift}{pdown}>{cbrack}
+
+# map brackets to page up down
+{obrack}>{pup}
+{cbrack}>{pdown}
+
